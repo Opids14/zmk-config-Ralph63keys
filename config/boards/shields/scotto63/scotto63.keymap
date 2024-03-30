@@ -4,8 +4,8 @@
 
 
 #define WINDOWS 0
-#define LOWEr 1
-#define RAISE 2
+#define WINDOWS_CODE 1
+#define WINDOWS_NUMBER 2
 #define WINDOWS_FUNCTION 3
 #define MAC 4
 #define MAC_CODE 5
@@ -118,11 +118,11 @@
                 &kp TAB    &kp Q         &kp W  &kp E    &kp R    &kp T                                                &kp Y                    &kp U             &kp I             &kp O       &kp P   &kp BACKSPACE
                 &kp LSHFT   &kp A         &kp S  &kp D    &kp F    &kp G     &kp LBKT           &kp UP &kp RBKT                &kp H                    &kp J             &kp K             &kp L       &kp SEMICOLON           &kp APOSTROPHE
                 &kp LCTRL &kp Z  &kp X  &kp C    &kp V    &kp B     &kp LEFT           &kp DOWN &kp RIGHT                &kp N                    &kp M             &kp COMMA         &kp PERIOD  &kp SLASH &kp RSHIFT
-                                                &kp LGUI    &kp LALT &mo LOWER   &kp SPACE &kp K_PP &kp ENTER &lt RAISE ENTER &td_multi_windows &kp DEL
+                                                &kp LGUI    &kp LALT &kp WINDOWS_CODE  &kp SPACE &kp K_PP &kp ENTER &lt WINDOWS_NUMBER ENTER &td_multi_windows &kp DEL
             >;
         };
 
-        lower_layer {
+        windows_code_layer {
             bindings = <
                 &kp 1 &kp F2                   &kp F3                &none                 &none             &none                              &none     &none             &none            &none            &none                &trans
                 &trans &kp UNDER               &kp UP            &kp PLUS              &kp EQUAL         &kp COLON                          &kp GRAVE &kp C_PREVIOUS    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
@@ -132,7 +132,7 @@
             >;
         };
 
-        raise_layer {
+        windows_number_layer {
             bindings = <
                 &bt BT_CLR  &bt BT_SEL 0           &bt BT_SEL 1       &none    &none      &none                                     &none     &none         &none        &none      &none         &trans
                 &trans &kp EXCLAMATION &kp AT_SIGN &kp HASH &kp DOLLAR &kp PERCENT                               &kp CARET &kp AMPERSAND &kp ASTERISK &kp CAPS   &kp BACKSPACE &trans
