@@ -35,7 +35,7 @@
         //};
     //};
 
-    macros {
+      macros {
         spotlight: spotlight {
             label = "spotlight";
             compatible = "zmk,behavior-macro";
@@ -58,6 +58,7 @@
             bindings = <&macro_press &kp LGUI>, <&macro_tap &kp DOT>, <&macro_release &kp LGUI>; 
         };
     };
+
 
     behaviors {
         td_multi_mac: tap_dance_multi_mac {
@@ -125,7 +126,7 @@
         windows_code_layer {
             bindings = <
                 &kp F1 &kp F2                   &kp F3                &kp F4                 &kp F5             &kp F6                              &kp F7     &kp F8             &kp F9            &kp F10            &kp F11                &kp F12
-                &trans &trans UNDER               &kp UP            &kp PLUS              &kp EQUAL         &kp COLON                          &kp GRAVE &kp C_PREVIOUS    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
+                &kp K_COPY &kp K_PASTE               &kp UP            &kp PLUS              &kp EQUAL         &kp COLON                          &kp GRAVE &kp C_PREVIOUS    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
                 &trans &kp LEFT          &kp DOWN &kp RIGHT &kp RIGHT_BRACE   &kp PIPE      &trans &trans &trans &kp ESC   &kp LEFT          &kp UP           &kp DOWN         &kp RIGHT            &trans
                 &trans &cm LSHIFT LEFT_BRACKET &kp APOSTROPHE       &kp DOUBLE_QUOTES     &kp RIGHT_BRACKET &kp SEMICOLON &trans &trans &trans &kp TILDE &kp C_VOLUME_DOWN &kp C_MUTE       &kp C_VOLUME_UP  &cm RSHIFT BACKSLASH &trans
                                                                     &trans                &trans            &trans        &trans &trans &trans &trans    &trans            &trans
