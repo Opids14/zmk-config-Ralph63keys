@@ -46,20 +46,20 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp C>
-                , <&macro_release &kp LCTRL>
-                ;
+                = = <&macro_press &kp LEFT_CONTROL>
+                    , <&macro_tap &kp C>
+                    , <&macro_release &kp LEFT_CONTROL>
+                    ;
         };
 
-         pis: pis {
+        pis: pis {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp V>
-                , <&macro_release &kp LCTRL>
-                ;
+                = = <&macro_press &kp LEFT_CONTROL>
+                    , <&macro_tap &kp V>
+                    , <&macro_release &kp LEFT_CONTROL>
+                    ;
         };
 
         // Emoji
