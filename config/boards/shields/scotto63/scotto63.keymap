@@ -12,11 +12,7 @@
 #define MAC_NUMBER 6
 #define MAC_FUNCTION 7
 
-    // Behavior Overrides
-    &lt {
-        tapping-term-ms = <200>;
-        flavor = "hold-preferred";
-    };
+    
 
 / {
     //combos {
