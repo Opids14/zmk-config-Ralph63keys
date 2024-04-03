@@ -126,7 +126,7 @@
                 &kp F1 &kp F2                   &kp F3                &kp F4                 &kp F5             &kp F6                              &kp F7     &kp F8             &kp F9            &kp F10            &kp F11                &kp F12
                 &kp LC(C)  &kp LC(V)               &kp UP            &kp PLUS              &kp EQUAL         &kp COLON                          &kp MINUS &kp EQUAL    &kp C_PLAY_PAUSE &kp C_NEXT       &kp DELETE           &trans
                 &trans &kp LEFT          &kp DOWN &kp RIGHT &kp RIGHT_BRACE   &kp PIPE      &trans &trans &trans &kp CAPS   &kp LEFT          &kp UP           &kp DOWN         &kp RIGHT            &trans
-                &trans &cm LSHIFT LEFT_BRACKET &kp APOSTROPHE       &kp DOUBLE_QUOTES     &kp RIGHT_BRACKET &kp SEMICOLON &trans &trans &trans &kp TILDE &kp C_VOLUME_DOWN &kp C_MUTE       &kp C_VOLUME_UP  &cm RSHIFT BACKSLASH &trans
+                &trans &cm LSHIFT LEFT_BRACKET &kp APOSTROPHE       &kp DOUBLE_QUOTES     &kp RIGHT_BRACKET &kp SLASH &trans &trans &trans &kp TILDE &kp C_VOLUME_DOWN &kp C_MUTE       &kp C_VOLUME_UP  &cm RSHIFT BACKSLASH &trans
                                                                     &trans                &trans            &trans        &trans &trans &trans &trans    &trans            &trans
             >;
         };
